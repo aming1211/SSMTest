@@ -27,7 +27,7 @@
             <td>${row.username}</td>
             <td>${row.password}</td>
             <td><a href="delById?id=${row.id}">删除</a></td>
-            <td><a href="" </td>
+
 
         </tr>
     </c:forEach>
