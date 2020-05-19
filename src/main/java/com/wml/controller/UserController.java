@@ -29,7 +29,7 @@ public class UserController {
     }
     @RequestMapping("/findByName")
     public ModelAndView findByName(User user){
-            System.out.println("测试");
+            System.out.println("测试1");
             ModelAndView mv=new ModelAndView("main.jsp");
             List<User> users=userService.findByName(user);//得到数据
             mv.addObject("list",users);
