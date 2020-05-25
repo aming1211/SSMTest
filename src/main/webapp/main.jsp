@@ -14,7 +14,7 @@
 <body>
     <form method="get" method="/findByName">
         <input placeholder="请输入姓名" name="username">
-        <input type="submit">
+        <input type="submit" value="提交">
     </form>
 <table>
     <tr>
